@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Bing Rewards Booster",
+  "version": "1.0",
+  "description": "Automatise les recherches Bing avec un délai aléatoire.",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
